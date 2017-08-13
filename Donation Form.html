@@ -1,0 +1,259 @@
+<form name="process" id="ProcessForm" action="https://secure.edufund.org/site/Donation2" method="post"  >
+
+<div class="donation-form-container responsive">
+
+
+<div class="donation-form-content">
+
+
+
+
+
+
+<input type="hidden" name="user_donation_amt" id="user_donation_amt" value="" />
+<input type="hidden" name="company_min_matching_amt" id="company_min_matching_amt" value="" />
+<input type="hidden" name="currency_locale" id="currency_locale" value="en_US" />
+
+
+
+
+
+
+
+
+
+<div class="form-row">
+<div class="html-caption-container">
+<h2>Donate Edu Fund!</h2>
+
+<span style="display: none;">
+<script type="text/javascript">// <![CDATA[
+Y.use('jquery-noconflict', function() { 
+  jQuery(function($) {
+
+//hide Registration optin message
+$('#donor_email_opt_in_Row').hide();
+$('#donor_postal_opt_in_Row').hide();
+
+
+ });
+});
+// ]]></script>
+</span></p>
+<!--
+.donation-level-container {
+float: left;
+margin-right: 30px!important;
+}
+label+div.donation-level-user-entered {
+display: inline-block;
+}
+div.donation-level-user-entered {
+margin-top:0;
+}
+#pstep_finish {
+float:left;
+}
+-->
+</div>
+</div>
+
+
+
+
+<div class="don-standard-levels form-row">
+<div class="levels-label">
+
+</div>
+
+<div id="level_standard_row" class="form-row form-donation-level">
+
+<div class="form-content">
+<span class="field-required"></span> <span class="aural-only">Field Is Required</span>
+
+<span class="FormLabelText">Select Gift Amount:</span> 
+
+
+<div class="donation-level-general-ask">
+
+</div>
+
+<div class="donation-levels">
+
+<div class="donation-level-container">
+<div class="form-content">
+
+<div class="donation-level-input-container form-input">
+
+<div class="donation-level-label-input-container">
+<input type="radio" name="level_standardexpanded" id="level_standardexpanded2181"
+value="2181"
+
+
+onclick="evalMatchingGift('$25.00');"
+/>
+</div>
+
+<label for="level_standardexpanded2181" onclick="">
+
+
+<div class="donation-level-amount-container">
+$50.00
+</div>
+
+
+
+</label>
+
+
+
+
+
+
+
+</div>
+
+<input type="hidden" name="level_standardexpandedsubmit" id="level_standard_2181expandedsubmit" value="true" /> 
+</div>
+</div>
+<div class="donation-level-container">
+<div class="form-content">
+
+<div class="donation-level-input-container form-input">
+
+<div class="donation-level-label-input-container">
+<input type="radio" name="level_standardexpanded" id="level_standardexpanded2182"
+value="2182"
+
+
+onclick="evalMatchingGift('$200.00');"
+/>
+</div>
+
+<label for="level_standardexpanded2182" onclick="">
+
+
+<div class="donation-level-amount-container">
+$100.00
+</div>
+
+
+
+</label>
+
+
+
+
+
+
+
+</div>
+
+<input type="hidden" name="level_standardexpandedsubmit" id="level_standard_2182expandedsubmit" value="true" /> 
+</div>
+</div>
+<div class="donation-level-container">
+<div class="form-content">
+
+<div class="donation-level-input-container form-input">
+
+<div class="donation-level-label-input-container">
+<input type="radio" name="level_standardexpanded" id="level_standardexpanded2184"
+value="2184"
+
+
+onclick="evalMatchingGift('$500.00');"
+/>
+</div>
+
+<label for="level_standardexpanded2184" onclick="">
+
+
+<div class="donation-level-amount-container">
+$200.00
+</div>
+
+
+
+</label>
+
+
+
+
+
+
+
+</div>
+
+<input type="hidden" name="level_standardexpandedsubmit" id="level_standard_2184expandedsubmit" value="true" /> 
+</div>
+</div>
+<div class="donation-level-container">
+<div class="form-content">
+
+<div class="donation-level-input-container form-input">
+
+<div class="donation-level-label-input-container">
+<input type="radio" name="level_standardexpanded" id="level_standardexpanded2185"
+value="2185"
+
+
+onclick="evalMatchingGift('$1,000.00');"
+/>
+</div>
+
+<label for="level_standardexpanded2185" onclick="">
+
+
+<div class="donation-level-amount-container">
+$300.00
+</div>
+
+
+
+</label>
+
+
+
+
+
+
+
+</div>
+
+<input type="hidden" name="level_standardexpandedsubmit" id="level_standard_2185expandedsubmit" value="true" /> 
+</div>
+</div>
+<div class="donation-level-container">
+<div class="form-content">
+
+<div class="donation-level-input-container form-input">
+
+<div class="donation-level-label-input-container">
+<input type="radio" name="level_standardexpanded" id="level_standardexpanded2186"
+value="2186"
+
+
+onclick="evalMatchingGift(document.getElementById('level_standardexpanded2186amount').value);"
+/>
+</div>
+
+<label for="level_standardexpanded2186" onclick="">
+
+
+
+<div class="donation-level-label-container">
+Enter an Amount
+</div>
+
+
+</label>
+
+
+<div class="donation-level-user-entered">
+<label for="level_standardexpanded2186amount"><span class="aural-only">Enter amount</span></label>
+<input type="text" name="level_standardexpanded2186amount" id="level_standardexpanded2186amount" value="" size="12"
+onfocus="var el = document.getElementById ('level_standardexpanded2186');if (el) el.click(); fire_obs_comp_event('level_standardexpanded2186amount', this, event);evalMatchingGift(value); "
+onchange="fire_obs_comp_event('level_standardexpanded2186amount', this, event);evalMatchingGift(value);"
+onkeyup="fire_obs_comp_event('level_standardexpanded2186amount', this, event);evalMatchingGift(value);"/>
+</div>

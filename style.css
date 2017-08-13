@@ -47,3 +47,28 @@ ul.nav li a:hover{
   height: 50px;
   border-radius: 5px;
 }
+
+.feature {
+  position: relative;
+  width: 200px;
+  height: 300px;
+  border: 2px solid #ddd;
+  float: left;
+  margin: 20px ;
+}
+
+.features button{ 
+  position: absolute;
+  bottom: 20px;
+ }
+
+.highlight {
+  background: black;
+  color: white;
+  width: 250px;
+}
+
+.clear {
+  clear: both;
+}
+}

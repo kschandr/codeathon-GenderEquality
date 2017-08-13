@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+@import url('https://fonts.googleapis.com/css?family=Zilla+Slab+Highlight');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:600');
 
 body, html {
   height: 100%;
@@ -7,22 +9,26 @@ body, html {
   color: #777;
 }
 
-.img-1, .img-2, .img-3 {
+.img-1, .img-15, .img-2, .img-3, .img-4 {
   position: relative;
-  opacity: 0.75;
+  opacity: 0.65;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 
 }
-.img-1 {
-  background-image: url("image/farmer-girl.jpg");
-  min-height: 100%;
-}
 
+.img-1 {
+  background-image: url("image/title.jpg");
+  min-height: 100%
+}
+.img-15 {
+  background-image: url("image/pls.jpg");
+  min-height: 400px;
+}
 .img-2 {
-  background-image: url("image/stock-school.jpg");
+  background-image: url("image/happy.jpg");
   min-height: 400px;
 }
 
@@ -31,29 +37,67 @@ body, html {
   min-height: 400px;
 }
 
+.img-4 {
+  background-image: url("image/farmer-girl.jpg");
+  min-height: 100%;
+}
+
 .title {
   position: absolute;
-  top: 25%;
+  top: 20%;
   left:0;
   width: 100%;
-  text-align: center;
-  color: #000;
+  text-align: right;
+  margin-right: 50px;
+  color: #fff;
+  font-size: 60px;
+  font-weight: 50px;
 }
+
+h1::first-letter {
+  font-family:'Roboto Slab', serif ;
+}
+
+
+.title span.border {
+  background-color: rgba(17, 17, 17,0.5);
+  padding: 18px ;
+  letter-spacing: 10px;
+  margin-right: 50px;
+  border: solid 5px white;
+  text-align: right;
+  font-size: 90px;
+}
+
+
 .caption {
   position: absolute;
   left: 0;
   top: 50%;
   width: 100%;
   text-align: center;
-  color: #000;
+  color: #990033;
 }
 
-.title span.border {
-  background-color: #111;
-  color: #fff;
+.caption span.quote {
+  background-color: rgba(17,17,17,0.5);
+  /*color: #fff;*/
+  padding: 18px;
+  font-size: 25px;
+  /*letter-spacing: 10px;*/
+  text-align: center;
+  top:20px;
+  /*border: solid 5px white;*/
+}
+.caption span.border {
+  background-color: rgba(17,17,17,0.5);
+  color: #990033;
   padding: 18px;
   font-size: 25px;
   letter-spacing: 10px;
+  text-align: center;
+  top:20px;
+  border: solid 5px white;
 }
 
 h3 {
@@ -61,6 +105,30 @@ h3 {
   text-transform: uppercase;
   font: 20px 'Roboto Slab', serif;
   color: #111;
+}
+
+#carouselExampleControls {
+  background-color: rgba(17,17,17,0.5);
+  color: white;
+  border: solid black 5px;
+  padding: 18px;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  min-height: 500px;
+}
+
+.carousel_slide {
+  padding:18px;
+}
+
+.carousel-item .content{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  width: 80%;
+  margin: 0 auto;
 }
 
 
